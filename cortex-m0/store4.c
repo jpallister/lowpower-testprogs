@@ -3,7 +3,8 @@
 
 int main()
 {
-    __asm("mov r0, #0x20000000");
+    __asm("mov r0, #1");
+    __asm("lsl r0, r0, #29");
     while(1)
     {
         __asm("str r1, [r0]");

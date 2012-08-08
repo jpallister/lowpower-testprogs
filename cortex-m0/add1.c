@@ -2,7 +2,7 @@
 
 int main()
 {
-    __asm("mov r0, #0x20000000");
+    __asm("mov r0, #0x2");
     while(1)
     {
         __asm("add r1, r0");
